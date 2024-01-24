@@ -11,6 +11,10 @@ a {
   outline: none !important;
 }
 
+a:hover {
+  text-decoration: underline !important;
+}
+
 p {
   margin: 0;
 }
@@ -37,7 +41,6 @@ h2 {
 }
 
 h3 {
-  color: #713fc9 !important;
   font-weight: bold !important;
   font-size: 25px !important;
 }
@@ -196,74 +199,24 @@ h6 {
   background-color: #25a2d0;
 }
 
-@-webkit-keyframes fadeDown {
-  from {
-    opacity: 0;
-    margin-top: -2rem;
-  }
-  to {
-    opacity: 1;
-    margin-top: 1rem;
-  }
-}
-
-@keyframes fadeDown {
-  from {
-    opacity: 0;
-    margin-top: -2rem;
-  }
-  to {
-    opacity: 1;
-    margin-top: 1rem;
-  }
-}
-
-@-webkit-keyframes fadeUp {
-  from {
-    opacity: 0;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .top-margin-16 {
   margin-top: 16px !important;
+}
+
+.text-red {
+  color: #fb0303;
+}
+
+.text-pink {
+  color: #ff00bf;
+}
+
+.text-green {
+  color: #008000;
+}
+
+.text-blue {
+  color: #0404b4;
 }
 
 header .brand {
@@ -334,6 +287,51 @@ main .menu .info .footer {
   text-align: right;
   font-weight: bold;
   padding: 0 8px;
+}
+
+main .post {
+  padding: 50px 0;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main .post strong {
+  font-size: 18px;
+}
+
+main .post-info {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main .post-info .title {
+  font-size: 25px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+main .post-info .table-responsive .table-bordered {
+  width: 100%;
+}
+
+main .post-info .table-responsive .table-bordered th {
+  padding: 1rem;
+  text-align: center;
+}
+
+main .post-info .table-responsive .table-bordered td {
+  padding: 1rem;
+}
+
+main .post-info .table-responsive .table-bordered td ul {
+  padding-left: 1rem;
+}
+
+main .post-info .disclamer {
+  padding: 50px 0;
+  color: #666;
+  font-weight: 600;
+  text-align: center;
 }
 
 footer {
