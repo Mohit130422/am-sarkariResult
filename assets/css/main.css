@@ -11,10 +11,6 @@ a {
   outline: none !important;
 }
 
-a:hover {
-  text-decoration: underline !important;
-}
-
 p {
   margin: 0;
 }
@@ -95,8 +91,8 @@ h6 {
   padding: 8px 16px !important;
   font-size: 14px !important;
   font-weight: 600 !important;
-  border: 1px solid #ab183d !important;
-  background-color: #ab183d !important;
+  border: 1px solid #7c0524 !important;
+  background-color: #7c0524 !important;
 }
 
 .btn-apply-primary:hover {
@@ -130,9 +126,8 @@ h6 {
   padding: 8px 24px;
   font-size: 14px;
   font-weight: 600;
-  border-radius: 40px;
   border: none;
-  background-color: #ab183d;
+  background-color: #7c0524;
 }
 
 .btn-outline-light {
@@ -183,7 +178,7 @@ h6 {
 }
 
 .bg-bold-red {
-  background-color: #8c0101;
+  background-color: #7c0524;
 }
 
 .bg-orange {
@@ -221,7 +216,7 @@ h6 {
 }
 
 header .brand {
-  background-color: #ab183d;
+  background-color: #7c0524;
   padding: 1rem;
 }
 
@@ -262,8 +257,25 @@ header nav ul li .nav-link i {
   margin-right: 10px;
 }
 
+header nav ul .search {
+  position: relative;
+}
+
+header nav ul .search .input-group {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  min-width: 245px;
+}
+
+header nav ul .search .input-group input {
+  background-color: #fff;
+}
+
 .head {
-  background-color: #ab183d;
+  background-color: #7c0524;
   color: #fff;
   text-align: center;
   font-size: 18px;
@@ -282,7 +294,7 @@ header nav ul li .nav-link i {
 }
 
 .card .card-body .badges {
-  background-color: #ab183d;
+  background-color: #7c0524;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
@@ -308,13 +320,13 @@ main .headline .marquies {
 }
 
 main .menu .info {
-  border: 2px solid #ab183d;
+  border: 2px solid #7c0524;
   margin-bottom: 16px;
   border-radius: 2px;
 }
 
 main .menu .info .head {
-  background-color: #ab183d;
+  background-color: #7c0524;
   color: #fff;
   text-align: center;
   font-size: 18px;
@@ -430,6 +442,20 @@ main .search-result .card .title .timestamp {
 main .search-result .card .title .card-text {
   font-size: 14px;
   font-weight: 500;
+}
+
+main .search-result .pagination .page-link {
+  color: #7c0524;
+  font-weight: 600;
+  margin: 0 12px;
+  padding: 8px 16px;
+  -webkit-box-shadow: 0px 2px 4px;
+          box-shadow: 0px 2px 4px;
+}
+
+main .search-result .pagination .page-link:hover {
+  background-color: #7c0524;
+  color: #fff;
 }
 
 footer {

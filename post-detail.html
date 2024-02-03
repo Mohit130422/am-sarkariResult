@@ -33,7 +33,7 @@
                 <nav>
                     <ul>
                         <li class="nav-item active border-end border-white">
-                          <a class="nav-link" href="#">Home</a>
+                          <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item border-end border-white">
                           <a class="nav-link" href="#">Latest Jobs</a>
@@ -53,8 +53,12 @@
                          <li class="nav-item border-end border-white">
                           <a class="nav-link" href="#">Contact Us</a>
                         </li>
-                        <li class="nav-item border-none">
-                          <a class="nav-link d-flex align-items-center" href="search.html"><i class='bx bx-search-alt'></i> Search</a>
+                        <li class="nav-item border-none search">
+                            <a class="nav-link d-flex align-items-center" href="#" id="open-search"><img src="assets/images/icon/search.svg" alt="search"> Search</a>
+                              <div class="input-group mb-4"  id="search-box">
+                                  <input type="text" class="form-control" placeholder="Search Keyword" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                  <button class="btn solid-action-btn" type="button" id="search">Search</button>
+                              </div>
                         </li>
                     </ul>
                 </nav>
@@ -412,7 +416,7 @@
                                         </div>
                                         <div class="title">
                                             <a href="#" class="card-title">APSC Assistant Engineer Recruitment 2023 (Latest Jobs) 81 Post</a>
-                                            <p class="card-text d-flex align-items-center"><i class='bx bx-time mr-2'></i> January 28, 2024</p>
+                                            <p class="card-text d-flex align-items-center"><img src="assets/images/icon/time.svg" alt="time"> January 28, 2024</p>
                                         </div>
                                     </div>
                                 </div>
@@ -424,7 +428,7 @@
                                         </div>
                                         <div class="title">
                                             <a href="#" class="card-title">APSC Assistant Engineer Recruitment 2023 (Latest Jobs) 81 Post</a>
-                                            <p class="card-text d-flex align-items-center"><i class='bx bx-time mr-2'></i> January 28, 2024</p>
+                                            <p class="card-text d-flex align-items-center"><img src="assets/images/icon/time.svg" alt="time"> January 28, 2024</p>
                                         </div>
                                     </div>
                                 </div>
@@ -436,7 +440,7 @@
                                         </div>
                                         <div class="title">
                                             <a href="#" class="card-title">APSC Assistant Engineer Recruitment 2023 (Latest Jobs) 81 Post</a>
-                                            <p class="card-text d-flex align-items-center"><i class='bx bx-time mr-2'></i> January 28, 2024</p>
+                                            <p class="card-text d-flex align-items-center"><img src="assets/images/icon/time.svg" alt="time"> January 28, 2024</p>
                                         </div>
                                     </div>
                                 </div>
@@ -448,7 +452,7 @@
                                         </div>
                                         <div class="title">
                                             <a href="#" class="card-title">APSC Assistant Engineer Recruitment 2023 (Latest Jobs) 81 Post</a>
-                                            <p class="card-text d-flex align-items-center"><i class='bx bx-time mr-2'></i> January 28, 2024</p>
+                                            <p class="card-text d-flex align-items-center"><img src="assets/images/icon/time.svg" alt="time"> January 28, 2024</p>
                                         </div>
                                     </div>
                                 </div>
@@ -541,6 +545,13 @@
             <p>Copyright © 2023 by Mohit Varshney | All Rights Reserved.</p>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $("#open-search").click(function() {
+                $("#search-box").css('top','60px','z-index','1');
+            });
+        });
+    </script>
 </body>
 
 </html>

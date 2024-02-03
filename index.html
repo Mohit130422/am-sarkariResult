@@ -32,7 +32,7 @@
                 <nav>
                     <ul>
                         <li class="nav-item active border-end border-white">
-                          <a class="nav-link" href="post-detail.html">Home</a>
+                          <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item border-end border-white">
                           <a class="nav-link" href="post-detail.html">Latest Jobs</a>
@@ -49,11 +49,15 @@
                         <li class="nav-item border-end border-white">
                           <a class="nav-link" href="post-detail.html">Syllabus</a>
                         </li>
-                        <li class="nav-item border-end border-white">
-                          <a class="nav-link" href="post-detail.html">Search</a>
-                        </li>
-                         <li class="nav-item border-none">
+                         <li class="nav-item border-end">
                           <a class="nav-link" href="post-detail.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item border-none search">
+                            <a class="nav-link d-flex align-items-center" href="#" id="open-search"><img src="assets/images/icon/search.svg" alt="search"> Search</a>
+                              <div class="input-group mb-4"  id="search-box">
+                                  <input type="text" class="form-control" placeholder="Search Keyword" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                  <button class="btn solid-action-btn" type="button" id="search">Search</button>
+                              </div>
                         </li>
                     </ul>
                 </nav>
@@ -456,6 +460,12 @@
             <p>Copyright © 2023 by Mohit Varshney | All Rights Reserved.</p>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $("#open-search").click(function() {
+                $("#search-box").css('top','60px','z-index','1');
+            });
+        });
+    </script>
   </body>
-
 </html>

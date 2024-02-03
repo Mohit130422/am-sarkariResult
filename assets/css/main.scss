@@ -1,4 +1,4 @@
-$primary-color: #ab183d;
+$primary-color: #7c0524;
 // $primary-color: #4959D8;
 $secondary-color: #713fc9;
 $tertiary-color: #21395f;
@@ -20,9 +20,6 @@ a{
     text-decoration: none !important;
     // color: #333;
     outline: none !important;
-    &:hover{
-        text-decoration: underline !important;
-    }
 }
 p{
     margin: 0;
@@ -128,7 +125,6 @@ h6{
     padding: 8px 24px;
     font-size: 14px;
     font-weight: 600;
-    border-radius: 40px;
     border: none;
     background-color: $primary-color;
 }
@@ -171,7 +167,7 @@ h6{
     background-color: #0b610b;
 }
 .bg-bold-red{
-    background-color: #8c0101;
+    background-color: $primary-color;
 }
 .bg-orange{
     background-color: #fb5e03;
@@ -226,6 +222,19 @@ header{
                     i{
                         font-size: 20px;
                         margin-right: 10px;
+                    }
+                }
+            }
+            .search{
+                position: relative;
+                .input-group{
+                    position: absolute;
+                    top: 0;
+                    z-index: -1;
+                    flex-wrap: nowrap;
+                    min-width: 245px;
+                    input{
+                        background-color: $light-color;
                     }
                 }
             }
@@ -378,6 +387,19 @@ main{
                 .card-text{
                     font-size: 14px;
                     font-weight: 500;
+                }
+            }
+        }
+        .pagination{
+            .page-link{
+                color: $primary-color;
+                font-weight: 600;
+                margin: 0 12px;
+                padding: 8px 16px;
+                box-shadow: 0px 2px 4px;
+                &:hover{
+                    background-color: $primary-color;
+                    color: $light-color;
                 }
             }
         }
