@@ -30,7 +30,12 @@
             </div>
             <div class="row">
                 <nav>
-                    <ul>
+                    <div class="menu-bar">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul id="menu">
                         <li class="nav-item active border-end border-white">
                           <a class="nav-link" href="index.html">Home</a>
                         </li>
@@ -66,7 +71,7 @@
     </header>
 
     <main>
-        <div class="headline m-4">
+        <div class="headline mt-4">
             <div class="container">
                 <div class="row text-center">
                     <h6 class="mb-3">Sarkari Result : SarkariResult.Com Sarkari Naukri Latest Jobs Online Form at Sarkari Results 2024</h6>
@@ -463,7 +468,10 @@
     <script>
         $(document).ready(function() {
             $("#open-search").click(function() {
-                $("#search-box").css('top','60px','z-index','1');
+                $("#search-box").css('display','flex');
+            });
+            $(".menu-bar").click(function() {
+                $("#menu").toggle();
             });
         });
     </script>
