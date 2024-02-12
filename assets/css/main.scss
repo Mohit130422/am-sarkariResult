@@ -242,6 +242,14 @@ header{
         }
     }
     @media(max-width:576px){
+        .d-sm-block{
+            position: relative;
+            .input-group{
+                display: none;
+                position: absolute;
+                top: 60px;
+            }
+        }
         .menu-bar{
             padding: 1rem;
             text-align: right;
@@ -261,6 +269,9 @@ header{
                 display: none;
                 .border-end{
                     border-right: none !important;
+                }
+                .search{
+                    display: none;
                 }
             }
         }         

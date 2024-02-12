@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1654" height="860" viewBox="0 0 1654 860">
+  <defs>
+    <clipPath id="clip-LOGO">
+      <rect width="1654" height="860"/>
+    </clipPath>
+  </defs>
+  <g id="LOGO" clip-path="url(#clip-LOGO)">
+    <text id="SARKARI_RESULTS" data-name="SARKARI RESULTS" transform="translate(548.672 264)" fill="#fff" font-size="92" font-family="PalatinoLinotype-Bold, Palatino Linotype" font-weight="700" letter-spacing="0.006em"><tspan x="0" y="0">SARKARI RESULTS</tspan></text>
+    <g id="Group_40376" data-name="Group 40376" transform="translate(1)">
+      <g id="Group_40375" data-name="Group 40375">
+        <circle id="Ellipse_199" data-name="Ellipse 199" cx="30.5" cy="30.5" r="30.5" transform="translate(1475 191)" fill="#fff"/>
+        <text id="JOBS" transform="translate(557.672 547)" fill="#fff" font-size="362" font-family="PalatinoLinotype-Bold, Palatino Linotype" font-weight="700" letter-spacing="0.006em"><tspan x="0" y="0">JOBS</tspan></text>
+        <text id="UNLOCK_YOUR_GOVERNMENT_CAREER_WITH_SARAKARI_RESULTS_JOBS_" data-name="UNLOCK YOUR GOVERNMENT CAREER WITH SARAKARI RESULTS JOBS!" transform="translate(549 686)" fill="#fff" font-size="30" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="0.006em"><tspan x="0" y="0">UNLOCK YOUR GOVERNMENT CAREER WITH SARAKARI RESULTS JOBS!</tspan></text>
+      </g>
+      <g id="Group_40374" data-name="Group 40374" transform="translate(-5161 -11099)">
+        <g id="Group_40371" data-name="Group 40371">
+          <circle id="Ellipse_200" data-name="Ellipse 200" cx="41.5" cy="41.5" r="41.5" transform="translate(5594.672 11535)" fill="#14bb87"/>
+          <path id="Subtraction_3" data-name="Subtraction 3" d="M114.031,264.4h0L23.443,173.769l46.4-80.93,135.961,1.2a51.168,51.168,0,0,0-1.652,12.927,50.652,50.652,0,0,0,24.712,43.712L114.031,264.4Z" transform="translate(5381.021 11469.529)" fill="#14bb87"/>
+        </g>
+        <g id="Group_40372" data-name="Group 40372">
+          <path id="Subtraction_4" data-name="Subtraction 4" d="M160.8,240.645,87.978,111.892a50.945,50.945,0,0,0,46.278-37.1l153.029,41.8-33.2,123.768Z" transform="translate(5310.021 11306.531)" fill="#ffaf06"/>
+          <circle id="Ellipse_201" data-name="Ellipse 201" cx="41.5" cy="41.5" r="41.5" transform="translate(5353.672 11326)" fill="#ffaf06"/>
+        </g>
+        <g id="Group_40373" data-name="Group 40373">
+          <path id="Subtraction_5" data-name="Subtraction 5" d="M102.123,196.987h0a52.031,52.031,0,0,0-61.154-7.922L0,33.134,123.785,0l46.887,80.647Z" transform="translate(5277 11456.943)" fill="#d52e4a"/>
+          <circle id="Ellipse_202" data-name="Ellipse 202" cx="42.432" cy="42.432" r="42.432" transform="translate(5300.74 11649.068)" fill="#d52e4a"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

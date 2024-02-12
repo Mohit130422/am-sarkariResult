@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row brand">
                 <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img src="assets/images/LOGO Light.png" alt="">
+                    <img src="assets/images/LOGO.svg" alt="">
                 </div>
                 <div class="col-lg-9 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
                    <div class="title text-center">
@@ -30,10 +30,17 @@
             </div>
             <div class="row">
                 <nav>
-                    <div class="menu-bar">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
+                    <div class="d-flex justify-content-end d-sm-block d-lg-none">
+                        <img src="assets/images/icon/search.svg" alt="search" id="open-search"> 
+                        <div class="input-group mb-4"  id="search-box-mob">
+                            <input type="text" class="form-control" placeholder="Search Keyword" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn solid-action-btn" type="button" id="search">Search</button>
+                        </div>
+                        <div class="menu-bar">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
                     </div>
                     <ul id="menu">
                         <li class="nav-item active border-end border-white">
@@ -58,7 +65,7 @@
                           <a class="nav-link" href="post-detail.html">Contact Us</a>
                         </li>
                         <li class="nav-item border-none search">
-                            <a class="nav-link d-flex align-items-center" href="#" id="open-search"><img src="assets/images/icon/search.svg" alt="search"> Search</a>
+                            <a class="nav-link d-flex align-items-center" href="#" id="open-search-web"><img src="assets/images/icon/search.svg" alt="search"> Search</a>
                               <div class="input-group mb-4"  id="search-box">
                                   <input type="text" class="form-control" placeholder="Search Keyword" aria-label="Recipient's username" aria-describedby="button-addon2">
                                   <button class="btn solid-action-btn" type="button" id="search">Search</button>
@@ -467,8 +474,11 @@
     </div>
     <script>
         $(document).ready(function() {
-            $("#open-search").click(function() {
+            $("#open-search-web").click(function() {
                 $("#search-box").css('display','flex');
+            });
+            $("#open-search").click(function() {
+                $("#search-box-mob").css('display','flex');
             });
             $(".menu-bar").click(function() {
                 $("#menu").toggle();

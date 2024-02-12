@@ -276,6 +276,14 @@ header nav ul .search .input-group input {
 }
 
 @media (max-width: 576px) {
+  header .d-sm-block {
+    position: relative;
+  }
+  header .d-sm-block .input-group {
+    display: none;
+    position: absolute;
+    top: 60px;
+  }
   header .menu-bar {
     padding: 1rem;
     text-align: right;
@@ -295,6 +303,9 @@ header nav ul .search .input-group input {
   }
   header nav ul .border-end {
     border-right: none !important;
+  }
+  header nav ul .search {
+    display: none;
   }
 }
 
