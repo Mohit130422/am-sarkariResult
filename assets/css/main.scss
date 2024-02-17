@@ -230,6 +230,7 @@ header{
                 .input-group{
                     display: none;
                     position: absolute;
+                    right: 0;
                     top: 70px;
                     z-index: 1;
                     flex-wrap: nowrap;
@@ -241,8 +242,8 @@ header{
             }
         }
     }
-    @media(max-width:576px){
-        .d-sm-block{
+    @media(max-width:992px){
+        .m-search{
             position: relative;
             .input-group{
                 display: none;
